@@ -6,4 +6,4 @@ def test_grade_a():
 
 
 def test_grade_pass():
-    assert grade(65) != "F"
+    assert grade(75) == "Pass"
